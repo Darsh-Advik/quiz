@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz:Page 1 </title>
+</head>
+<body>
+    <form action="file:///D:/Darsh/Computer%20quiz/p5.play-boilerplate-master/quiz/Page2.html?">
+    <h1 style="margin-top:15%;margin-left: 20%;"><p>Q1. which one of the following is a photo editing software?</p>    
+        <input class="incorrect"  type="radio" id="option1" name="gender" value="Microsoft Teams">
+        <label for="option1">Microsoft Teams</label><br>
+        <input class="correct"  type="radio" class="correct"  id="option2" name="gender" value="Adobe Photoshop">
+        <label class="correct" for="option2">Adobe Photoshop</label><br>
+        <input type="radio" class="incorrect"  id="option3" name="gender" value="Garage Band ">
+        <label for="option3">Garage Band</label><br>
+        <input type="radio" class="incorrect"  id="option4" name="gender" value="Netscape Navigator ">
+        <label class="incorrect" for="option4">Netscape Navigator</label></h1>
+
+
+        
+        <br><br>
+        <div class="row" style="margin-bottom: 2%;">
+            <div class="col-sm-6" ><button style="float:right;"><a style="text-decoration: none; color: #000000;" href="file:///D:/Darsh/Computer%20quiz/p5.play-boilerplate-master/quiz/Page2.html?gender=Adobe+Photoshop">Next Page</a></button></div>
+        </div>
+        
+        <style>
+         
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: red;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+    
+        </style>
+      </form>
+      
+</body>
+</html>
